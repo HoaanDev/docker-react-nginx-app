@@ -1,0 +1,54 @@
+# Ignore node_modules and other dependencies
+node_modules
+npm-debug.log
+yarn-error.log // with yarn
+pnpm-lock.yaml // with pnpm
+
+# Logs
+logs
+*.log
+**/*.log
+
+# Temp files
+tmp
+temp
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store // with macOS
+Thumbs.db
+
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Docker-specific files
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# IDE/Editor directories and files
+.vscode/ // VS Code IDE
+.idea/ // Jetbrains IDE
+*.sublime-project // Sublime Text
+*.sublime-workspace // Sublime Text
+
+# Build output directories
+dist/ // pnpm build
+build/ // yarn build
+out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Coverage
+coverage/
+*.lcov
