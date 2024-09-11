@@ -9,7 +9,7 @@ ReactJS &amp; nginx web server docker image
 
   ## Docker image run command
     ```
-    docker run --name react-nginx-app -p 8080:80 -d react-nginx-server
+    docker run --name react-nginx-app -p 8000:8000 -d react-nginx-server
     ```
 
   ## Docker compose command
